@@ -12,3 +12,6 @@ class Car {
         console.log(this.driver)
     }
 }
+
+
+export {Car};

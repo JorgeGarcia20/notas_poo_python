@@ -1,14 +1,14 @@
+from Account import Account
+
 class Car:
     id: int
-    license: int
-    driver: str
+    license: str
+    driver: Account
     passengers: int
 
-    def __init__(self, id: int, license: int, driver: str, passengers: int ) -> None:
-        self.id = id
+    def __init__(self,license: str, driver: Account) -> None:
         self.license = license
         self.driver = driver
-        self.passengers = passengers
 
-    def __str__(self) -> str:
-        return f'id: {self.id}\nlicense: {self.license}\nDriver: {self.driver}\nNumber of passengers: {self.passengers}\n'
+    def print_data_car(self):
+        print(f'License: {self.license}\nDriver name: {self.driver.name}\n')

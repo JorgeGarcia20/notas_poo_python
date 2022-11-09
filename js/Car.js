@@ -13,5 +13,4 @@ class Car {
     }
 }
 
-
 export {Car};

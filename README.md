@@ -16,3 +16,4 @@ La POO no es mejor ni peor que otro paradigma, esta tiene sus pros y sus contras
 * Facil de modificar: Debido a que un sistema orientado a objetos es modular, es posible modificar el funcionamiento de un objeto más facilmente.
 * Mantenibilidad: gracias a la modularidad es posible realizar mantenimiento de manera más óptima.
 * Reusabilidad: los objetos definidos se pueden usar las veces que sean necesarios, el objetivo es evitar repetir ódigo.
+
